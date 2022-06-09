@@ -27,6 +27,10 @@ module.exports = {
             'css-loader',
             "stylus-loader"
             ],
+        },
+        {
+            test: /\.(png|jpg|gif)$/i,
+            type: 'asset/resource',
         }
     ]
    },
